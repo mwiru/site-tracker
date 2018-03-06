@@ -72,4 +72,4 @@ python test.py
 ```
 
 ## Contribute
-Would you like to make **WeConnect** a better platform? See CONTRIBUTING.md for the steps to contribute.
+Would you like to make **Site-Tracker** a better platform? See CONTRIBUTING.md for the steps to contribute.
