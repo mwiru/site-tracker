@@ -131,7 +131,7 @@ def view_site_visits(site_id=None):
 def query_to_list(query, include_field_names=True):
 	""" Turns an SQLAlchemy query into a list of data values. """
 	column_names = []
-	for i, obj in enmerate(query.all()):
+	for i, obj in enumerate(query.all()):
 		if i == 0:
 			column_names = [c.name for c in obj.__table__.columns]
 			if include_field_names:
